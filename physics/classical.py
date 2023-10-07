@@ -7,13 +7,13 @@ LINKS:
 github - https://github.com/Gabri432/python-physics/blob/master/physics/classical.py
 """
 
-def force(mass, acceleration):
+def force(mass: float, acceleration: float) -> float:
     """Calculates F = mass*acceleration.
 
     Parameters:
     ----------
-        - mass, a float representing the mass of the object. 
-        - acceleration, a float representing the acceleration of the object.
+        - mass (kilograms), a float representing the mass of the object. 
+        - acceleration (meters/s^2), a float representing the acceleration of the object.
 
     Returns:
     ---------
@@ -21,3 +21,33 @@ def force(mass, acceleration):
     
     """
     return mass*acceleration
+
+def speed(distance: float, time: float) ->  float:
+    """Calculates v = distance/time.
+
+    Parameters:
+    ----------
+        - distance (meters), a float representing a distance. 
+        - time (seconds), a float representing the time to cover such distance.
+
+    Returns:
+    ---------
+        A float representing the speed as result of that distance and time.
+    
+    """
+    return distance/time
+
+def time(distance: float, speed: float) -> float:
+    """Calculates t = distance/speed.
+
+    Parameters:
+    ----------
+        - distance (meters), a float representing a distance. 
+        - speed (meters/seconds), a float representing the speed of an object.
+
+    Returns:
+    ---------
+        A float representing the time as result of that distance and speed.
+    
+    """
+    return distance/speed
