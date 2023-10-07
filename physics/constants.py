@@ -1,3 +1,12 @@
+"""
+MODULE NAME: constants
+
+DESCRIPTION: A collection of various Physics constants, across different fields.
+
+LINKS:
+github - https://github.com/Gabri432/python-physics/blob/master/physics/constants.py
+"""
+
 #Earth Gravity constant in meters per square second
 GRAVITY = 9.81
 
