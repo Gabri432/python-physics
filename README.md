@@ -17,7 +17,7 @@ A library containing several physics formulas and constants for making various c
         - thermodynamics.py (incoming)
         - electromagnetism.py (incoming)
         - gravity.py (incoming)
-        - fluids.py (incoming)
+        - [fluids.py](https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py)
         - relativity.py (incoming)
 
 ## Description
