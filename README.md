@@ -10,7 +10,6 @@ A library containing several physics formulas and constants for making various c
     - setup.py
     - tests (folder)
     - physics (folder)
-        - __pycache__ (folder)
         - __init__.py
         - [classical.py](https://github.com/Gabri432/python-physics/blob/master/physics/classical.py)
         - [constants.py](https://github.com/Gabri432/python-physics/blob/master/physics/constants.py)
