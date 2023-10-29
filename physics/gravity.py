@@ -1,5 +1,5 @@
 """
-MODULE NAME: fluids
+MODULE NAME: gravity
 
 DESCRIPTION: A collection of various Physics formulas related to Gravitational laws.
 
