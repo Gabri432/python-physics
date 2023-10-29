@@ -1,5 +1,5 @@
 """
-MODULE NAME: classical
+MODULE NAME: thermodynamics
 
 DESCRIPTION: A collection of various Physics formulas related to Thermodynamics.
 
