@@ -25,7 +25,7 @@ def force(mass: float, acceleration: float) -> float:
         A float representing the force as result of that mass and acceleration.
     
     """
-    return mass*acceleration
+    return mass*acceleration, "N"
 
 def speed(distance: float, time: float) ->  float:
     """Calculates v = distance/time.
@@ -40,7 +40,7 @@ def speed(distance: float, time: float) ->  float:
         A float representing the speed as result of that distance and time.
     
     """
-    return distance/time
+    return distance/time, "m/s"
 
 def time(distance: float, speed: float) -> float:
     """Calculates t = distance/speed.
@@ -55,7 +55,7 @@ def time(distance: float, speed: float) -> float:
         A float representing the time as result of that distance and speed.
     
     """
-    return distance/speed
+    return distance/speed, "s"
 
 
 def work(force: float, distance: float) -> float: 
@@ -70,7 +70,7 @@ def work(force: float, distance: float) -> float:
     ---------
         A float representing the work as result of that force and distance.
     """
-    return force*distance
+    return force*distance, "J"
 
 
 def acceleration(force: float, mass: float) -> float:
