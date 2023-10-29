@@ -7,6 +7,8 @@ LINKS:
 github - https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py
 """
 
+import mathem
+
 #Hagen-Poiseuille law, check for more information https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation
 def law_Hagen_Poiseuille(fluid_viscosity: float, pipe_length: float, flow_rate: float, pipeRadius: float) -> float:
 	"""Calculates delta_p = ((8 * fluid_viscosity * pipe_length * flow_rate) / (greek_pi * (pipeRadius**4))), where greek_pi = 3.1416.
@@ -23,7 +25,7 @@ def law_Hagen_Poiseuille(fluid_viscosity: float, pipe_length: float, flow_rate: 
         A float representing the pressure difference as result of that fluid viscosity, pipe length, flow rate and pipe radius.
     
     """
-	return ((8 * fluid_viscosity * pipe_length * flow_rate) / (3.1416 * pipeRadius**4)), "Pascal"
+	return ((8 * fluid_viscosity * pipe_length * flow_rate) / (mathem.greek_pi * pipeRadius**4)), "Pascal"
 
 #Stokes law, check for more information https://en.wikipedia.org/wiki/Stokes%27_law
 def law_Stokes(fluid_viscosity: float, radius: float, speed: float) -> float:
@@ -40,4 +42,4 @@ def law_Stokes(fluid_viscosity: float, radius: float, speed: float) -> float:
         A float representing the force as result of that mass and acceleration.
     
     """
-	return 6 * 3.1416 * fluid_viscosity * radius * speed, "N"
+	return 6 * mathem.greek_pi * fluid_viscosity * radius * speed, "N"

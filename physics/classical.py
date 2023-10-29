@@ -275,7 +275,7 @@ def angular_frequency(time: float) -> float:
     ---------
         A float representing the Angular Frequency as result of that time.
     """
-    return (2 * 3.1416) / time, "rad/s"
+    return (2 * mathem.greek_pi) / time, "rad/s"
 
 #Centripetal Force is the ratio between the mass and square speed product and the radius
 def centripetal_force(mass: float, speed: float, radius: float) -> float:
@@ -322,7 +322,7 @@ def pendulum_period(pendulum_length: float) -> float:
     ---------
         A float representing the time as result of that distance and speed.
     """
-    return (2 * 3.1416) * math.sqrt(pendulum_length/constants.GRAVITY), "s"
+    return (2 * mathem.greek_pi) * math.sqrt(pendulum_length/constants.GRAVITY), "s"
 
 
 #Maximum height of projectile, check for more info https://en.wikipedia.org/wiki/Projectile_motion

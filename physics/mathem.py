@@ -8,6 +8,10 @@ github - https://github.com/Gabri432/python-physics/blob/master/physics/mathem.p
 """
 import math
 
+greek_pi = 3.1416
+
+radiant_to_deg = 57.2958
+
 def sine_square(angle: float) -> float:
 	"""Calculates sine**2(angle) = (1 - cosine(2*angle)) / 2.
 
