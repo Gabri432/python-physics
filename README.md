@@ -29,3 +29,15 @@ A library containing several physics formulas and constants for making various c
 - mathem.py, collection of utility math formulas;
 - relativity.py, collection of formulas from Relativity field;
 - thermodynamics.py, collection of formulas from Thermodynamics field;
+
+
+## How to use it
+```python
+import physics
+from physics import classical  #importing the classical module
+print(classical.force(3,4))    #using a function from the classical module
+```
+### Result
+```
+>>> (12, 'N') // Respectevely, the result and the measurement unit
+```
