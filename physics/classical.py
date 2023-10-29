@@ -9,6 +9,7 @@ github - https://github.com/Gabri432/python-physics/blob/master/physics/classica
 
 import math
 import constants
+import mathem
 
 
 def force(mass: float, acceleration: float) -> float:
@@ -337,7 +338,7 @@ def projectile_max_height(initial_velocity: float, angle: float) -> float:
     ---------
         A float representing the Projectile Max Height as result of that initial velocity and angle.
     """
-    return (initial_velocity * initial_velocity * mathem.SineSquare(angle/57.2958)) / (2 * constants.GRAVITY), "m"
+    return (initial_velocity * initial_velocity * mathem.sine_square(angle)) / (2 * constants.GRAVITY), "m"
 
 
 #Horizontal range of projectile from ground, check for more info https://en.wikipedia.org/wiki/Range_of_a_projectile
