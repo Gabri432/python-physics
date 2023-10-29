@@ -8,8 +8,8 @@ github - https://github.com/Gabri432/python-physics/blob/master/physics/classica
 """
 
 import math
-import constants
-import mathem
+from physics import constants
+from physics import mathem
 
 
 def force(mass: float, acceleration: float) -> float:
