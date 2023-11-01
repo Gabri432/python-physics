@@ -15,7 +15,7 @@ A library containing several physics formulas and constants for making various c
         - [constants.py](https://github.com/Gabri432/python-physics/blob/master/physics/constants.py)
         - [mathem.py](https://github.com/Gabri432/python-physics/blob/master/physics/mathem.py)
         - [thermodynamics.py](https://github.com/Gabri432/python-physics/blob/master/physics/thermodynamics.py)
-        - electromagnetism.py (incoming)
+        - [electromagnetism.py](https://github.com/Gabri432/python-physics/blob/master/physics/electromagnetism.py)
         - [gravity.py](https://github.com/Gabri432/python-physics/blob/master/physics/gravity.py)
         - [fluids.py](https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py)
         - relativity.py (incoming)
