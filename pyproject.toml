@@ -10,7 +10,7 @@ mainteiners = [
 description = "A package containing Physics formulas and constants for various calculations."
 readme = "README.md"
 requires-python = ">=3.12"
-license = 'MIT'
+license = {file = "license"}
 keywords = ['physics', 'library', 'lib', 'relativity', 'thermodynamics', 'classical', 'gravity', 'electromagnetism', 'fluids']
 classifiers = [
     "Programming Language :: Python :: 3",
