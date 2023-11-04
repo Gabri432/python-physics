@@ -3,13 +3,13 @@ A library containing several physics formulas and constants for making various c
 
 ## Project structure
 - root
-    - [.gitignore](https://github.com/Gabri432/python-physics/blob/master/.gitignore)
+    - .gitignore
     - [license (MIT)](https://github.com/Gabri432/python-physics/blob/master/license)
     - pyproject.toml
     - README.md
     - setup.py
     - tests (folder)
-    - physics (folder)
+    - src/physics (folder)
         - __init__.py
         - [classical.py](https://github.com/Gabri432/python-physics/blob/master/physics/classical.py)
         - [constants.py](https://github.com/Gabri432/python-physics/blob/master/physics/constants.py)
