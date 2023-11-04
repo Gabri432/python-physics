@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = [
   { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
 ]
-mainteiners = [
+maintainers = [
   { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
 ]
 description = "A package containing Physics formulas and constants for various calculations."
