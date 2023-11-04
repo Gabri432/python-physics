@@ -9,8 +9,8 @@ classifiers = [
 ]
 
 setup (
-    name="python-physics-gabri432",
-    version="0.0.1",
+    name="physics-gabri432",
+    version="0.1.0",
     description="A package containing Physics formulas and constants for various calculations.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -19,7 +19,7 @@ setup (
     author_email="gabrielegatti432@gmail.com",
     license="MIT",
     classifiers=classifiers,
-    keywords="physics,library,lib",
+    keywords="physics, library, lib, relativity, thermodynamics, classical, gravity, electromagnetism, fluids",
     packages=find_packages(),
     install_requires=[""]
 
