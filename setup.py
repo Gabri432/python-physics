@@ -10,7 +10,7 @@ classifiers = [
 
 setup (
     name="physics-gabri432",
-    version="0.1.0",
+    version="0.1.1",
     description="A package containing Physics formulas and constants for various calculations.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
