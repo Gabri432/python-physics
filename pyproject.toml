@@ -11,7 +11,7 @@ description = "A package containing Physics formulas and constants for various c
 readme = "README.md"
 requires-python = ">=3.12"
 license = 'MIT'
-keywords = ['physics', 'library', 'lib', 'relativity', 'thermodynamics', 'classical', 'gravity', 'electromagnetism', 'fluids'
+keywords = ['physics', 'library', 'lib', 'relativity', 'thermodynamics', 'classical', 'gravity', 'electromagnetism', 'fluids']
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
