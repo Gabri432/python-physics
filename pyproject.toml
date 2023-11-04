@@ -1,5 +1,5 @@
 [project]
-name = "python-physics-gabri432"
+name = "physics-gabri432"
 version = "0.1.0"
 authors = [
   { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
