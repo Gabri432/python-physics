@@ -7,7 +7,7 @@ LINKS:
 github - https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py
 """
 
-import mathem
+from physics import mathem
 
 #Hagen-Poiseuille law, check for more information https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation
 def law_Hagen_Poiseuille(fluid_viscosity: float, pipe_length: float, flow_rate: float, pipeRadius: float) -> float:

@@ -7,7 +7,7 @@ LINKS:
 github - https://github.com/Gabri432/python-physics/blob/master/physics/electromagnetism.py
 """
 import math
-import constants
+from physics import constants
 
 #Coulomb law formula, check for more information https://en.wikipedia.org/wiki/Coulomb%27s_law
 def law_Coulomb(charge1: float, charge2: float, distance: float) -> float: 

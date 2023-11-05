@@ -17,3 +17,11 @@ MODULES:
 LINKS: 
 github - https://Gabri432/python-physics
 """
+
+from .classical import *
+from .constants import *
+from .electromagnetism import *
+from .fluids import *
+from .gravity import *
+from .relativity import *
+from .thermodynamics import *
