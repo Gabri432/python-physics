@@ -13,14 +13,14 @@ A library containing several physics formulas and constants for making various c
     - tests (folder)
     - src/physics (folder)
         - __init__.py
-        - [classical.py](https://github.com/Gabri432/python-physics/blob/master/physics/classical.py)
-        - [constants.py](https://github.com/Gabri432/python-physics/blob/master/physics/constants.py)
+        - [classical.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/classical.py)
+        - [constants.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/constants.py)
         - [mathem.py](https://github.com/Gabri432/python-physics/blob/master/physics/mathem.py)
-        - [thermodynamics.py](https://github.com/Gabri432/python-physics/blob/master/physics/thermodynamics.py)
-        - [electromagnetism.py](https://github.com/Gabri432/python-physics/blob/master/physics/electromagnetism.py)
-        - [gravity.py](https://github.com/Gabri432/python-physics/blob/master/physics/gravity.py)
-        - [fluids.py](https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py)
-        - [relativity.py](https://github.com/Gabri432/python-physics/blob/master/physics/relativity.py)
+        - [thermodynamics.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/thermodynamics.py)
+        - [electromagnetism.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/electromagnetism.py)
+        - [gravity.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/gravity.py)
+        - [fluids.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/fluids.py)
+        - [relativity.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/relativity.py)
 
 ## Description
 - `classical.py`, collection of formulas from Cinematics and Dynamics fields;
