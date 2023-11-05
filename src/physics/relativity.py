@@ -4,7 +4,7 @@ MODULE NAME: relativity
 DESCRIPTION: A collection of various Physics formulas related to the Relativity field.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/relativity.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/relativity.py
 """
 
 import math

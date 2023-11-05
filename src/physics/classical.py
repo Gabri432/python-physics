@@ -4,7 +4,7 @@ MODULE NAME: classical
 DESCRIPTION: A collection of various Physics formulas related to Cinematics and Dynamics.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/classical.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/classical.py
 """
 
 import math

@@ -4,7 +4,7 @@ MODULE NAME: thermodynamics
 DESCRIPTION: A collection of various Physics formulas related to Thermodynamics.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/thermodynamics.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/thermodynamics.py
 """
 
 #Gay-Lussac first law  (Volume variation), check for more information https://en.wikipedia.org/wiki/Ideal_gas_law#Combined_gas_law

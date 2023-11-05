@@ -4,7 +4,7 @@ MODULE NAME: fluids
 DESCRIPTION: A collection of various Physics formulas related to Fluid Dynamics.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/fluids.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/fluids.py
 """
 
 from physics import mathem

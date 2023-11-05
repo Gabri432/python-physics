@@ -4,7 +4,7 @@ MODULE NAME: electromagnetism
 DESCRIPTION: A collection of various Physics formulas related to Electromagnetism.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/electromagnetism.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/electromagnetism.py
 """
 import math
 from physics import constants

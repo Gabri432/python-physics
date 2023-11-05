@@ -4,7 +4,7 @@ MODULE NAME: mathem
 DESCRIPTION: A collection of some Math formulas and constants used in the library.
 
 LINKS:
-github - https://github.com/Gabri432/python-physics/blob/master/physics/mathem.py
+github - https://github.com/Gabri432/python-physics/blob/master/src/physics/mathem.py
 """
 import math
 
