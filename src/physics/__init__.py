@@ -25,3 +25,5 @@ from .fluids import *
 from .gravity import *
 from .relativity import *
 from .thermodynamics import *
+
+print("Welcome to the 'physics' library!")
