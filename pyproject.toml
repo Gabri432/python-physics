@@ -1,6 +1,6 @@
 [project]
 name = "physics-gabri432"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
 ]
@@ -10,7 +10,7 @@ maintainers = [
 description = "A package containing Physics formulas and constants for various calculations."
 readme = "README.md"
 requires-python = ">=3.12"
-license = {file = "license"}
+license = {text = "MIT license"}
 keywords = ['physics', 'library', 'lib', 'relativity', 'thermodynamics', 'classical', 'gravity', 'electromagnetism', 'fluids']
 classifiers = [
     "Programming Language :: Python :: 3",
