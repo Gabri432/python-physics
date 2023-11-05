@@ -13,6 +13,7 @@ A library containing several physics formulas and constants for making various c
     - tests (folder)
     - src/physics (folder)
         - __init__.py
+        - [Body.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/Body.py)
         - [classical.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/classical.py)
         - [constants.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/constants.py)
         - [mathem.py](https://github.com/Gabri432/python-physics/blob/master/physics/mathem.py)
@@ -23,6 +24,7 @@ A library containing several physics formulas and constants for making various c
         - [relativity.py](https://github.com/Gabri432/python-physics/blob/master/src/physics/relativity.py)
 
 ## Description
+- `Body.py`, a class to ease the use of some formulas;
 - `classical.py`, collection of formulas from Cinematics and Dynamics fields;
 - `constants.py`, collection of constants from all fields;
 - `electromagnetism.py`, collection of formulas from Electromagnetism field;
@@ -38,7 +40,9 @@ pip install physics-gabri432
 ```
 
 
-## How to use it
+## How to use the library
+
+### Use functions
 ```python
 import physics
 from physics import classical  #importing the classical module
@@ -47,4 +51,19 @@ print(classical.force(3,4))    #using a function from the classical module
 ### Result
 ```
 >>> (12, 'N') // Respectevely, the result and the measurement unit
+```
+
+### Or create a custom object and use its methods
+```python
+from physics.Body import Body       #importing the Body class
+earth = Body('Earth', 5.97e24, 0)   #Initializing a variable 'earth' with its name, mass and speed.
+print(earth)                        #Showing the string representation of the class.
+print(earth.grav_field(6.371e6))    #using a function from the classical module
+```
+### Result
+```
+>>> Name: Earth         // The string representation of a Body object
+    Mass: 5.97e+24 kg
+    Speed: 0 m/s.
+>>> (9.810360234523877, 'm/s^2') // Respectevely, the result and the measurement unit
 ```
