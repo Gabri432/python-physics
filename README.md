@@ -32,6 +32,11 @@ A library containing several physics formulas and constants for making various c
 - `relativity.py`, collection of formulas from Relativity field;
 - `thermodynamics.py`, collection of formulas from Thermodynamics field;
 
+## How to install it
+```
+pip install physics-gabri432
+```
+
 
 ## How to use it
 ```python
